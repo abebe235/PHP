@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Untitled Document</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+</head>
+
+<body>
+    <form action="ex0618_2.php" method="post">
+        <p>テキスト
+        <label><input type="text" size="40" maxlength="80" placeholder="テキストを漢字で入力してください" name="text"></label></p>
+        
+        <p>
+        <label>チェックボックス1</label>
+            <input type="checkbox" name="box1" value="chbx1">
+        <label>チェックボックス2</label>
+            <input type="checkbox" name="box2" value="chbx2"></p>
+        
+        <fieldset>
+            <legend>性別</legend>
+                <p>
+                <label>男</label><input type="radio" name="radiobtn1" value="男">
+                <label>女</label><input type="radio" name="radiobtn2" value="女"></p>
+        </fieldset>
+        
+        <p>
+        <label>パスワード</label><input type="password" name="pwd"></p>
+        
+        <p>
+        <label>email</label><input type="email" name="email"></p>
+        
+        <input type="hidden" name="hiddensata" value="あいうえお">
+        
+        <input type="submit" value="送信">
+       
+    </form>
+</body>
+
+</html>
