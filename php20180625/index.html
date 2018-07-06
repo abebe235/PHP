@@ -29,19 +29,19 @@
     </header>
         
     <main>
-        <h2>ご契約者様情報</h2> <br>
+        <h2 class="title">ご契約者様情報</h2> <br>
         <p>ご契約されるお客様の情報を入力してください。</p>
 
         <table>
             <tr>
-                <th>契約者名　必須</th>
+                <th>契約者名　<p>必須</p></th>
                 <td>
                     <p>姓<label><input type="text" placeholder="同士で" name="family-name"></label>
                     名<label><input type="text" placeholder="サササ" name="given-name"></label></p>
                 </td>    
             </tr>
             <tr>
-                <th>契約者名（カタカナ）　必須</th>
+                <th>契約者名（カタカナ）　<p>必須</p></th>
                     <td>
                         <p>セイ<label><input type="text" placeholder="同士で" name="family-name"></label>
                         メイ<label><input type="text" placeholder="サササ" name="given-name"></label></p>
@@ -49,30 +49,15 @@
             </tr>
 
             <tr>
-                <th>性別　必須</th>
+                <th>性別　<p>必須</p></th>
                     <td>
-                      <ul>
-                          <li><input type="radio" name="radiobtn" value="男">男</li>
-                          <li><input type="radio" name="radiobtn" value="女">女</li>
-                      </ul>
-                      
-                      
-                      
-                       <!-- <p>
-                        <label class="color1">
-                          <input type="radio" name="radiobtn" value="男">
-                          男性
-                            </label>
-                        <label>
-                          <input type="radio" name="radiobtn" value="女">
-                          女性
-                        </label></p>
-                       -->
+                          <input type="radio" name="radiobtn1" value="男" checked id="radio01"><label for="radio01" class="rbtn">男</label>
+                          <input type="radio" name="radiobtn2" value="女" id="radio02"><label for="radio02" class="rbtn">女</label>
                     </td>
             </tr> 
-
+            
             <tr>
-                <th>生年月日　必須</th>
+                <th>生年月日　<p>必須</p></th>
                     <td>
                         <select>
                             <option value="" selected>選択してください</option>
@@ -132,7 +117,7 @@
                     </td>
             </tr>
             <tr>
-               <th>ご住所　必須</th>
+               <th>ご住所　<p>必須</p></th>
                     <td>
                      <p>
                          <label>郵便番号</label><input type="text" name="post-code"> <input type="submit" value="住所検索" class="color2">
@@ -156,7 +141,7 @@
                      </td>
             </tr>   
             <tr>
-                <th>連絡先電話番号　必須</th>
+                <th>連絡先電話番号　<p>必須</p></th>
                     <td>
                         <p><label>
                            <input type="text" name=""> ─ <input type="text"> ─ <input type="text"></label>
@@ -174,7 +159,7 @@
                     </td>
             </tr>
             <tr>
-                <th>メールアドレス　必須</th>
+                <th>メールアドレス　<p>必須</p></th>
                 <td>
                 <p>
                 <label><input type="email" name="email"></label>
@@ -183,7 +168,7 @@
                 </td>
             </tr>
             <tr>
-                <th>メールアドレス （確認）　必須</th>
+                <th>メールアドレス（確認）　<p>必須</p></th>
                 <td>
                 <p>
                 <label><input type="email" name="email"></label>
@@ -194,7 +179,7 @@
                 </td>
             </tr>
             <tr>
-                <th>ご職業　必須</th>
+                <th>ご職業　<p>必須</p></th>
                 <td>
                 <p>
                     <label>
@@ -205,20 +190,21 @@
                 </td>
             </tr>
             <tr>
-               <th>暗証番号　必須</th> 
+               <th>暗証番号　<p>必須</p></th> 
                     <td>
+                    <p>任意の4桁の数字を入力してください。</p>
                     <p>
                         <label>
                             <input type="password" name="pwd">
                         </label> <input type="submit" value="パスワードを表示" class="color2">
                     </p>
-                    <p>任意の4桁の数字を入力してください。</p>
-                    <p>※暗証番号は、my UQ mobileご利用時、お問い合わせじに必要になります。</p>
+
+                    <p>※暗証番号は、my UQ mobileご利用時、お問い合わせ時に必要になります。</p>
                     <p>※お忘れにならないようにメモをお取りください。お忘れになった場合は書面での通知となります。</p>
                     </td>
             </tr>
             <tr>
-                 <th>暗証番号（確認）　必須</th>
+                 <th>暗証番号（確認）　<p>必須</p></th>
                  <td>
                  <p>
                       <label>
@@ -236,25 +222,23 @@
       
     <footer>
         <h2>ご利用者様情報</h2>
-        <p>ご利用になられるお客様の情報を入力してください。</p>
+        <p>ご利用になられるお客様の情報を入力してください。</p> <br>
         <p class="caution">※ご利用者様がご契約者様と異なる場合、「ご契約者様の本人確認書類」と「ご利用者様の本人確認書類」が必要となります。</p>
         <p class="caution">※ご利用者様とご契約者様の苗字、もしくは住所が違う場合は、ご家族であることが証明できる書類が必要となります。</p>
-
+        <br>
         <table>
             <tr>
-                <th>サービスのご利用者様 必須</th>
+                <th>サービスのご利用者様 <p>必須</p></th>
                 <td>
-               <ul>
-                  <li><input type="radio" name="radiobtn2" value="">本人</li>
-                  <li><input type="radio" name="radiobtn2" value="">本人以外</li>
-               </ul>      
+               <div class="rbtn">
+                    <input type="radio" name="radiobtn2" checked><label for="rb1">本人</label>
+                  <input type="radio" name="radiobtn2"><label>本人以外</label>
+                    </div>
                 </td>
             </tr>
         </table>
 
-
-
-         1つ前に戻る　未入力項目があります
+        <a href="#" class="footerbtn1">1つ前に戻る</a>　<a href="#" class="footerbtn2">未入力項目があります</a>
     </footer>
 
 </form>

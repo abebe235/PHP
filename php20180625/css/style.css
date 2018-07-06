@@ -1,7 +1,7 @@
 @charaset="UTF-8" ;
 
 body {
-    line-height: 1.5 ;
+    line-height: 2 ;
 }
 
 header{
@@ -9,8 +9,31 @@ header{
     color: #e8007d ;
 }
 
+h1{
+    font-size: 20px ;
+}
+
+h2 {
+    width: 950px ;
+  position: relative;
+  font-size: 20px ;
+  padding: .75em 1em .75em 1.5em;
+  border-bottom: 2px solid #ccc;
+}
+h2::after {
+  position: absolute;
+  top: .9em;
+  left: .5em;
+  content: '';
+  width: 9px;
+  height: -webkit-calc(100% - 1em);
+  height: calc(80% - 1em);
+  background-color: #e3017f;
+  border-radius: 4px;
+}
+
 main{
-    width: 1500px ;
+    width: 2000px ;
     padding-top: 50px ;
     padding-left: 100px ;
 }
@@ -22,10 +45,22 @@ main table {
 }
 
 th{
+    width: 300px ;
     border: 1px solid #c0c0c0 ;
     text-align: left ;
     padding: 20px ;
     background: #f9f9f9 ;
+}
+
+th p {
+    display: inline ;
+    text-align: center ;
+    font-size: 80% ;
+    padding: 5px ;
+    background: #fff ;
+    color: #e3017f ;
+    border: 2px solid #e3017f ;
+    border-radius: 5px
 }
 
 td {
@@ -42,20 +77,105 @@ td ul li{
     line-height: 50px ;
     text-align: center ;
 }
-main label.color1 {
+
+/*.rbtn input[type="radio"] {
+  display:none; 
+}
+
+.rbtn label {
+  display:inline-block;
+  color:#fff;
+  background-color:#2780e3;
+  padding:5px 10px;
+}
+
+.rbtn input[type="radio"]:checked + label { 
+  background-color:#000;
+}*/
+
+rbtn. label{
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	padding: 10px 100px;
+	border-radius: 2px;
+	color: #000 ;
+	font-size: 100% ;
+	text-align: center;
+	line-height: 1;
+    background: #f9f9f9 ;
+}
+rbtn. label:before{
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 10px;
+	width: 20px;
+	height: 20px;
+	margin-top: -10px;
+	border-radius: 50%;
+    background: #fff ;
+}
+
+/*input[type="radio"] {
+display: none ;
+}*/
+
+rbtn. input[type="radio"]:checked + label:after {
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 16px;
+	width: 8px;
+	height: 8px;
+	margin-top: -4px;
+	border-radius: 50%;
+	background-color: #f354a4 ;
+}
+
+/*main label.color1 {
     color: #fff ;
     background: #f354a4 ;
-}
+}*/
 main input.color2 {
+    width: auto ;
+    font-weight: bold ;
     color: #fff ;
     background: #e3017f ;
+    border-radius: 5px ;
+    padding: 5px ;
+}
+
+footer {
+    margin-left: 100px ;
 }
 
 footer table {
     width: 1000px ;
-    height: 50px ;
+    height: 0px ;
     border-collapse: collapse ;
     border: 1px solid #c0c0c0 ;
+    margin-bottom: 100px ;
+}
+
+footer a.footerbtn1 {
+    width: auto ;
+    font-weight: bold ;
+    text-align: center ;
+    border-radius: 500px ;
+    background: #f9f9f9 ;
+    padding: 20px 50px 20px 50px ;
+    
+}
+
+footer a.footerbtn2 {
+    width: auto ;
+    font-weight: bold ;
+    text-align: center ;
+    border-radius: 500px ;
+    background:#e3017f ;
+    color: #fff ;
+    padding: 20px 100px 20px 100px ;
 }
 
 p.caution{
