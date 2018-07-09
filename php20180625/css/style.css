@@ -2,11 +2,21 @@
 
 body {
     line-height: 2 ;
+    border-top: 3px solid #e3017f ;
+}
+
+a{
+    text-decoration: none ;
 }
 
 header{
     padding-left: 100px ;
+    padding-top: 150px ;
+    padding-bottom: 30px ;
     color: #e8007d ;
+    margin-top: 100px ;
+    border-top: 1px solid #e3017f ;
+    border-bottom:2px solid #ccc;
 }
 
 h1{
@@ -14,11 +24,12 @@ h1{
 }
 
 h2 {
-    width: 950px ;
+  width: 950px ;
   position: relative;
   font-size: 20px ;
   padding: .75em 1em .75em 1.5em;
   border-bottom: 2px solid #ccc;
+margin-bottom: 30px ;
 }
 h2::after {
   position: absolute;
@@ -34,7 +45,7 @@ h2::after {
 
 main{
     width: 2000px ;
-    padding-top: 50px ;
+    padding-top: 30px ;
     padding-left: 100px ;
 }
 
@@ -63,6 +74,15 @@ th p {
     border-radius: 5px
 }
 
+/*「姓」「名」とテキスト入力画面の間の空白*/
+td.name1 input[type="text"] {
+    margin-left: 25px ;
+}
+td.name2 input[type="text"] {
+    margin-left: 10px ;
+}
+/*「姓」「名」とテキスト入力画面の間の空白*/
+
 td {
     border: 1px solid #c0c0c0 ;
     text-align: left ;
@@ -78,65 +98,64 @@ td ul li{
     text-align: center ;
 }
 
-/*.rbtn input[type="radio"] {
-  display:none; 
-}
-
-.rbtn label {
-  display:inline-block;
-  color:#fff;
-  background-color:#2780e3;
-  padding:5px 10px;
-}
-
-.rbtn input[type="radio"]:checked + label { 
-  background-color:#000;
-}*/
-
-rbtn. label{
-	display: inline-block;
-	position: relative;
-	cursor: pointer;
-	padding: 10px 100px;
-	border-radius: 2px;
-	color: #000 ;
-	font-size: 100% ;
-	text-align: center;
-	line-height: 1;
-    background: #f9f9f9 ;
-}
-rbtn. label:before{
-	position: absolute;
-	content: "";
-	top: 50%;
-	left: 10px;
-	width: 20px;
-	height: 20px;
-	margin-top: -10px;
-	border-radius: 50%;
-    background: #fff ;
-}
-
-/*input[type="radio"] {
+/*ラジオボタンのスタイル*/
+input[type="radio"] {
 display: none ;
-}*/
-
-rbtn. input[type="radio"]:checked + label:after {
-	position: absolute;
-	content: "";
-	top: 50%;
-	left: 16px;
-	width: 8px;
-	height: 8px;
-	margin-top: -4px;
-	border-radius: 50%;
-	background-color: #f354a4 ;
 }
 
-/*main label.color1 {
+.rbtn + label{
+    padding: 10px 80px 10px 80px;
+    position:relative;
+    margin-right: 20px;
+    background: #f9f9f9 ;
+    border-radius: 5px
+}
+
+.rbtn + label::before { 
+    content: "";
+    display: block;
+    position: absolute;
+    border: 1px solid #999;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: #fff ;
+    top: 11px ;
+    left: 11px ;
+}
+
+.rbtn:checked + label {
     color: #fff ;
     background: #f354a4 ;
-}*/
+    border-radius: 10px
+}
+
+.rbtn:checked + label::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 1px solid #f354a4;
+    width: 9px;
+    height: 9px;
+    background: #f354a4;
+    border-radius: 50%;
+    top: 14px ;
+    left: 14px ;
+}
+/*ラジオボタンのスタイルここまで*/
+
+td.address input[type="text"] {
+    margin-left: 50px ;
+}
+
+.address {
+     margin-left: 160px ;
+     font-size: 95% ;
+}
+
+
+
+
 main input.color2 {
     width: auto ;
     font-weight: bold ;
@@ -148,6 +167,7 @@ main input.color2 {
 
 footer {
     margin-left: 100px ;
+    margin-bottom: 50px ;
 }
 
 footer table {
@@ -164,8 +184,7 @@ footer a.footerbtn1 {
     text-align: center ;
     border-radius: 500px ;
     background: #f9f9f9 ;
-    padding: 20px 50px 20px 50px ;
-    
+    padding: 20px 50px 20px 20px ;
 }
 
 footer a.footerbtn2 {
@@ -175,9 +194,15 @@ footer a.footerbtn2 {
     border-radius: 500px ;
     background:#e3017f ;
     color: #fff ;
-    padding: 20px 100px 20px 100px ;
+    margin-left: 100px ;
+    padding: 20px 50px 20px 100px ;
 }
 
 p.caution{
     color: #e3017f ;
 }
+
+a:link { color: #000 }
+a:visited { color: #000; }
+a:hover { color: #000; }
+a:active { color: #000; }
