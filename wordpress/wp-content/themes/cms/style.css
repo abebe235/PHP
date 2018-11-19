@@ -1,0 +1,221 @@
+@charset "utf-8";
+/*
+theme Name: cms3
+Author: 
+Description: org_theme
+*/
+
+body {
+  font-family: 'メイリオ', 'Meiryo', 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'Noto Sans Japanese', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-inner, .container, .footer-inner {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+}
+
+.contents, #sidebar {
+  margin: 20px 0;
+}
+.contents{
+  overflow: auto;
+}
+
+@media (min-width: 768px) {
+  /*コンテンツとサイドバーを横に並べる*/
+  .container:after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+  .contents {
+    float: left;
+    width: 70%;
+    margin-right: 2%;
+  }
+  #sidebar {
+    float: left;
+    width: 28%;
+  }
+}
+
+/*ヘッダー*/
+
+/*タイトルを画像にする場合*/
+.site-title {
+  text-align: left;
+}
+
+.site-title h1 {
+  line-height: 1;
+  margin: 0;
+  padding: 10px 5px 0;
+}
+
+.site-title h1 img {
+  width: auto;
+  height: 70px;
+}
+
+.site-title a {
+  display: block;
+}
+
+/*スマホ用のメニューボタン*/
+.header-inner {
+  position: relative;
+}
+
+#navbutton {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border: solid 1px #aaa;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+#navbutton:hover {
+  background-color: #ddd;
+}
+
+#navbutton:focus {
+  outline: none;
+}
+
+#navbutton i {
+  font-size: 2em;
+  color: #333;
+}
+
+
+/*ヘッダーナビ*/
+#header-nav {
+  display: none;
+}
+
+.header-nav {
+  padding-left: 10px;
+}
+
+.header-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+.header-nav li a:before {
+  content: "\f0da";
+content: "\f138"; /*  menu前に置いたアイコンの種類を変えられる*/
+  font-family: 'Font Awesome 5 Free';
+  color: #f99;　/*アイコンの色*/
+  font-size: 0.9em; /*アイコンの大きさ*/
+  padding-right: 3px;
+}
+
+.header-nav li a {
+  display: block;
+  padding: 15px 5px;
+  color: #000;
+  font-weight: bold;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.header-nav li a:hover {
+  opacity: 0.8;
+}
+
+/*ヘッダーメニューPC閲覧時*/
+@media (min-width: 768px) {
+  #header-nav {
+    display: block!important;
+  }
+  .header-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 10px;
+    box-sizing: border-box;
+  }
+  .header-nav ul:after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+  .header-nav li {
+    display: inline-block;
+    width: auto;
+  }
+  .header-nav li a {
+    font-size: 1.1em;
+    padding: 5px 10px;
+  }
+  #navbutton {
+    display: none;
+  }
+}
+
+/* 記事用 -------------*/
+.kiji-list img{
+  width: auto;
+  height: 100px;
+}
+
+
+
+
+
+
+
+/*確認用に一時記述----------*/
+
+.contents, #sidebar {
+  height: 800px;
+}
+
+.container {
+  background-color: #fcc;
+}
+
+.contents {
+  background-color: #ccf;
+}
+
+#sidebar {
+  background-color: #cfc;
+}
+
+footer {
+  background-color: #ffc;
+}
+
+.footer-inner {
+  height: 250px;
+  background-color: #cff;
+}
+
+/*------------------------*/

@@ -1,0 +1,541 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wabc\n"
+"POT-Creation-Date: 2017-03-24 10:20+0000\n"
+"PO-Revision-Date: 2017-03-24 10:21+0000\n"
+"Last-Translator: \n"
+"Language-Team: tkthemes\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:12
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:15
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comment-form.php:5
+msgid "Write Comment."
+msgstr ""
+
+#: comment-form.php:5
+msgid "*Mandatory"
+msgstr ""
+
+#: comment-form.php:13 inc/custom-comments.php:14
+msgid "Name"
+msgstr ""
+
+#: comment-form.php:19
+msgid "E-Mail"
+msgstr ""
+
+#: comment-form.php:19
+msgid "Not public."
+msgstr ""
+
+#: comment-form.php:24 inc/custom-comments.php:18
+msgid "Website"
+msgstr ""
+
+#: comment-form.php:29
+msgid "Your Comment"
+msgstr ""
+
+#: comment-form.php:36
+msgid "Send comment."
+msgstr ""
+
+#: comments.php:35 comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36 comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:37 comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: inc/custom-comments.php:16
+msgid "Email"
+msgstr ""
+
+#: inc/custom-sidebars.php:9
+msgid "Sidebar A"
+msgstr ""
+
+#: inc/custom-sidebars.php:11
+msgid "The first content sidebar."
+msgstr ""
+
+#: inc/custom-sidebars.php:18
+msgid "Sidebar B"
+msgstr ""
+
+#: inc/custom-sidebars.php:20
+msgid "The second content sidebar."
+msgstr ""
+
+#: inc/custom-sidebars.php:30
+msgid "slideshow"
+msgstr ""
+
+#: inc/custom-sidebars.php:31
+msgid "The slideshow sidebar."
+msgstr ""
+
+#: inc/custom-sidebars.php:40
+msgid "Top A"
+msgstr ""
+
+#: inc/custom-sidebars.php:41
+msgid "The first top sidebar."
+msgstr ""
+
+#: inc/custom-sidebars.php:49
+msgid "Top B"
+msgstr ""
+
+#: inc/custom-sidebars.php:50
+msgid "The second top sidebar."
+msgstr ""
+
+#: inc/custom-sidebars.php:58
+msgid "Top C"
+msgstr ""
+
+#: inc/custom-sidebars.php:59
+msgid "The third top sidebar."
+msgstr ""
+
+#: inc/custom-sidebars.php:69
+msgid "Bottom A"
+msgstr ""
+
+#: inc/custom-sidebars.php:70
+msgid "The first bottom sidebar."
+msgstr ""
+
+#: inc/custom-sidebars.php:78
+msgid "Bottom B"
+msgstr ""
+
+#: inc/custom-sidebars.php:79
+msgid "The second bottom sidebar."
+msgstr ""
+
+#: inc/custom-sidebars.php:87
+msgid "Bottom C"
+msgstr ""
+
+#: inc/custom-sidebars.php:88
+msgid "The third bottom sidebar."
+msgstr ""
+
+#: inc/custom-sidebars.php:97
+msgid "Footer A"
+msgstr ""
+
+#: inc/custom-sidebars.php:98
+msgid "The first footer sidebar."
+msgstr ""
+
+#: inc/custom-sidebars.php:106
+msgid "Footer B"
+msgstr ""
+
+#: inc/custom-sidebars.php:107
+msgid "The second footer sidebar."
+msgstr ""
+
+#: inc/custom-sidebars.php:115
+msgid "Footer C"
+msgstr ""
+
+#: inc/custom-sidebars.php:116
+msgid "The third footer sidebar."
+msgstr ""
+
+#: inc/custom-sidebars.php:125
+msgid "Contact A"
+msgstr ""
+
+#: inc/custom-sidebars.php:126
+msgid "The fisrt sidebar in contact us page."
+msgstr ""
+
+#: inc/custom-sidebars.php:134
+msgid "Contact B"
+msgstr ""
+
+#: inc/custom-sidebars.php:135
+msgid "The second sidebar in contacty us page."
+msgstr ""
+
+#: inc/customizer.php:31
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/customizer.php:56
+msgid "Navigation & Footer Background Color"
+msgstr ""
+
+#: inc/customizer.php:67
+msgid "Upper Footer Background Color "
+msgstr ""
+
+#: inc/customizer.php:80
+msgid "Sidebars Settings"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid "Which sidebars on which pages"
+msgstr ""
+
+#: inc/customizer.php:86
+msgid "Front Page"
+msgstr ""
+
+#: inc/customizer.php:87
+msgid "This section adds several sidebar options to the front page view."
+msgstr ""
+
+#: inc/customizer.php:98 inc/customizer.php:195
+msgid "Activate sidebar for slider."
+msgstr ""
+
+#: inc/customizer.php:112 inc/customizer.php:161 inc/customizer.php:210
+msgid "Activate top sidebars."
+msgstr ""
+
+#: inc/customizer.php:126 inc/customizer.php:175 inc/customizer.php:224
+msgid "Activate bottom sidebars."
+msgstr ""
+
+#: inc/customizer.php:133
+msgid "Blog index/archives/etc"
+msgstr ""
+
+#: inc/customizer.php:134
+msgid ""
+"This section adds several sidebar options to blog index/archive/etc view."
+msgstr ""
+
+#: inc/customizer.php:146
+msgid "Activate for slider."
+msgstr ""
+
+#: inc/customizer.php:182
+msgid "Pages and Posts"
+msgstr ""
+
+#: inc/customizer.php:183
+msgid "This section adds several sidebar options to page and post view."
+msgstr ""
+
+#: inc/customizer.php:231
+msgid "Footer sidebars"
+msgstr ""
+
+#: inc/customizer.php:232
+msgid "This section adds sidebar options to footer."
+msgstr ""
+
+#: inc/customizer.php:244
+msgid "Activate footer sidebars."
+msgstr ""
+
+#: inc/customizer.php:256
+msgid "Showcase Page"
+msgstr ""
+
+#: inc/customizer.php:257
+msgid "This section adds showcase page above main content"
+msgstr ""
+
+#: inc/customizer.php:271 inc/customizer.php:334 inc/customizer.php:400
+msgid "Show on Front Page."
+msgstr ""
+
+#: inc/customizer.php:285 inc/customizer.php:348 inc/customizer.php:414
+msgid "Show on Blog Page."
+msgstr ""
+
+#: inc/customizer.php:297 inc/customizer.php:364 inc/customizer.php:430
+msgid "Select Page"
+msgstr ""
+
+#: inc/customizer.php:307 inc/customizer.php:375 inc/customizer.php:439
+msgid "Select Excerpt of Full"
+msgstr ""
+
+#: inc/customizer.php:311 inc/customizer.php:379 inc/customizer.php:443
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer.php:312 inc/customizer.php:380 inc/customizer.php:444
+msgid "Full Content"
+msgstr ""
+
+#: inc/customizer.php:321
+msgid "Secondary Pages"
+msgstr ""
+
+#: inc/customizer.php:322
+msgid "This section adds up to 2 pages below main content"
+msgstr ""
+
+#: inc/customizer.php:387
+msgid "Top Pages"
+msgstr ""
+
+#: inc/customizer.php:388
+msgid "This section adds up to 3 pages above below main content"
+msgstr ""
+
+#: inc/customizer.php:450
+msgid "Carousel"
+msgstr ""
+
+#: inc/customizer.php:465
+msgid "Show carousel on front page?"
+msgstr ""
+
+#: inc/customizer.php:482
+msgid "Show carousel on blog index/archives/etc?"
+msgstr ""
+
+#: inc/customizer.php:499
+msgid "Show carousel on single posts and pages?"
+msgstr ""
+
+#: inc/customizer.php:511
+msgid "Select which category to show in the carousel"
+msgstr ""
+
+#: inc/customizer.php:527
+msgid "Enter the carousel speed in miliseconds [Default: 4000]"
+msgstr ""
+
+#: inc/customizer.php:544
+msgid "Enter the number of posts you want to use"
+msgstr ""
+
+#: inc/customizer.php:561
+msgid "Enter the number of posts you want to display on page"
+msgstr ""
+
+#: inc/customizer.php:576
+msgid "Social Links"
+msgstr ""
+
+#: inc/customizer.php:596
+msgid "Enable social media links on header section"
+msgstr ""
+
+#: inc/customizer.php:616
+msgid "Enable social media links on footer section"
+msgstr ""
+
+#: inc/customizer.php:639
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/customizer.php:659
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/customizer.php:680
+msgid "GooglePlus URL"
+msgstr ""
+
+#: inc/customizer.php:702
+msgid "LinkedIn URL"
+msgstr ""
+
+#: inc/customizer.php:723
+msgid "YouTube URL"
+msgstr ""
+
+#: inc/customizer.php:752
+msgid "Only logo"
+msgstr ""
+
+#: inc/customizer.php:753
+msgid "Logo plus site title&amp;description"
+msgstr ""
+
+#: inc/extras.php:114
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/setup.php:48
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:104 inc/template-tags.php:110
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:106
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:112
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:118
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:118
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:118
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:122 template-parts/content-page-front.php:27
+#: template-parts/content-page.php:27
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:139
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: inc/template-tags.php:141
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: inc/template-tags.php:143
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/template-tags.php:145
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:147
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:149
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags.php:169
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#: inc/template-tags.php:173
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:175
+msgid "Archives"
+msgstr ""
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page-front.php:20 template-parts/content-page.php:20
+#: template-parts/content-single.php:22 template-parts/content.php:32
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-top.php:119
+msgid "There are no pages available to display."
+msgstr ""
+
+#: template-parts/content-top.php:121
+#, php-format
+msgid "These pages can be set in the <a href=\"%s\">customizer</a>."
+msgstr ""
+
+#: template-parts/sidebar-area/sidebar-footer3.php:6
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: template-parts/sidebar-area/sidebar-footer3.php:6
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: template-parts/sidebar-area/sidebar-footer3.php:8
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""

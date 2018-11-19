@@ -1,0 +1,9 @@
+11/19 Wordpressの続き
+
+http://technosweb.com/web/cms.zipからテンプレートをインストール
+→cmsというファイルをwp-contentの中のthemesに入れる
+
+※ログインボタンがトップに出てなかった場合＝http://localhost:8888/wp-admin/にアクセス
+
+・wp_nav_menuで検索すると色々なのが出てくるので、必要に応じて追加する。
+・fontawesome.comでアイコンが検索できる。
