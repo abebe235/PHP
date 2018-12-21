@@ -1,0 +1,16 @@
+【ウィジェットのテーブルを作る】
+1.
+function.php（テーマのための関数）のwidgets-initを検索する。
+register_sidebar(array(
+    'name'=>'サイドバー',
+    'id'=>'side-widget',
+    'before_widget'=>'<div id="%1$s" class="%2$s sidebar-wrapper">',
+    'after_widget'=>'</div>',
+    'before_title'=>'<h4 class="sidebar-title">',
+    'after_title'=>'</h4>'
+    ));
+上を丸々コピー→nameとidの名前を変更
+2.
+sidebar.phpで
+<?php dynamic_sidebar( 'side-widget' ); ?>
+をコピー。コピーした方の'side-widget'内に変更したidを貼り付ける。

@@ -5,5 +5,7 @@ http://technosweb.com/web/cms.zipからテンプレートをインストール
 
 ※ログインボタンがトップに出てなかった場合＝http://localhost:8888/wp-admin/にアクセス
 
+【やったこと・メモ】
 ・wp_nav_menuで検索すると色々なのが出てくるので、必要に応じて追加する。
 ・fontawesome.comでアイコンが検索できる。
+・外観→ウィジェット→最近の投稿をウィジェットに追加

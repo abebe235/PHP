@@ -42,12 +42,13 @@ contact form 7をインストールで、ダッシュボードに「お問い合
 フォームの情報は、何もしなければ管理者に送られる。フォーム用のメアドがあるのならそちらに変更。
 メール（2）を追加することで、自動返信メールを作ることも可能。
 
+/サーバーに作る時用/
 データベース：technos_stu18
 ユーザー名：technos_stu18
 パスワード:stu43210
 ホスト名：mysql202b.xserver.jp
 
-webサイト：Web site
+webサイト：Viel Erfolg!
 ユーザー名：235_musami
 pass: musamiTEC005
 メアド：musami633@gmail.com
